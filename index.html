@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image Editor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    
+    <h1>Image Editor</h1>
+    <div id="content">
+        <div id="url">
+            <input type="text" placeholder="Enter URL">
+            <button id="submit">Submit</button>
+        </div>
+        <div id="sliders">
+            <ul>
+                <li>Blur <input type="range" name="Blur" min="0" max="5" step="0.01" value="0"></li>
+                <li>Brightness <input type="range" name="Brightness" min="0" max="200" step="0.01" value="100"></li>
+                <li>Contrast <input type="range" name="Contrast" min="0" max="200" step="0.01" value="100"></li>
+                <li>Grayscale <input type="range" name="Grayscale" min="0" max="100" step="0.01" value="0"></li>
+                <li>Hue-Rotate<input type="range" name="Hue-Rotate" min="0" max="100" step="0.01" value="0"></li>
+                <li>Invert <input type="range" name="Invert" min="0" max="100" step="0.01" value="0"></li>
+                <li>Opacity <input type="range" name="Opacity" min="0" max="100" step="0.01" value="100"></li>
+                <li>Saturate <input type="range" name="Saturate" min="0" max="200" step="0.01" value="100"></li>
+                <li>Sepia <input type="range" name="Sepia" min="0" max="100" step="0.01" value="0"></li>
+            </ul>
+            <button id="reset">Reset</button>
+        </div>
+        <div id="image">
+            <img src="https://az616578.vo.msecnd.net/files/2016/07/28/636053299380150443846718808_panda6-1.jpg" alt="picture">
+        </div>
+    </div>
+    
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
