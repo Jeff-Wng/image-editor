@@ -175,7 +175,7 @@ input[type='range']::-webkit-slider-thumb {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 790px) {
     h1 {
         width: 90%;
         margin-top: 25px;
@@ -218,7 +218,7 @@ input[type='range']::-webkit-slider-thumb {
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 670px) {
     #sliders {
         height: 250px;
     }
